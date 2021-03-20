@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container .btn {
+  position: absolute;
+  top: 7%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(235, 11, 11);
+  color: white;
+  font-size: 24px;
+  padding: 10px 27px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.logo img {
+  position: absolute;
+  background-image: transparent;
+  width: 250px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 10%;
+  font-size: 100px;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.centered h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+.centered h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1px;
+}
+
+.centered h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.container1 input {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 550px;
+  padding: 30px 25px;
+  font-size: 20px;
+}
+
+.container1 .btn2 {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  top: 70%;
+  left: 65.1%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(235, 11, 11);
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 27px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 2px;
+  border-radius: 0%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px black;
+}
+
+.container2 {
+  height: 500px;
+  background-color: black;
+}
