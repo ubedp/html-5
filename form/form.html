@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./form.css">
+    <title>FORM</title>
+</head>
+<body>
+    <section class="d-flex justify-content-center align-items-center  mt-5">
+    <form class="bg-white p-5 rounded " >
+    <div class="form-group">
+        <label for="user">username</label>
+        <input type="text" id="user" name="usern"  class="form-control"   placeholder="enter user name" required >
+    </div>
+
+    <div class="form-group">
+        <label for="em">email</label>
+        <input type="text" id="em" name="email" class="form-control" placeholder="enter email" required >
+    </div>
+
+    <div class="form-group">
+        <label for="pssd">password</label>
+        <input type="text" id="pssd" name="usern" class="form-control" placeholder="enter password" required >
+    </div>
+
+    <div class="form-group">
+        <label for="dat">DOB</label>
+        <input type="date" id="dat" name="date" class="form-control"  required >
+    </div>
+
+
+    <div class="form-group">
+        <label for="sub">subject</label>
+        <select name="subj" id="sub" class="form-control">
+            <option value="java">java</option>
+            <option value="c++">c++</option>
+            <option value="html">html</option>
+            <option value="c#">c#</option>
+        </select>
+    </div>
+
+   
+
+    <div class="form-group">
+        <label for="upd">upload resume</label>
+        <input type="file" id="pssd" name="upd" class="form-control" >
+    </div>
+
+    <div class="form-group">
+        
+        <button class=" btn btn-success btn-block">submit</button>
+    </div>
+
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-secondary">1</button>
+          <button type="button" class="btn btn-secondary">2</button>
+          <button type="button" class="btn btn-secondary">3</button>
+          <button type="button" class="btn btn-secondary">4</button>
+        </div>
+</form>
+</section>
+</body>
+</html>
